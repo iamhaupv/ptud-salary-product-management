@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="HopDong_Report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="bc1b4744-0288-4225-b0ac-bed6d20bb9e1">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (12)"/>
+	<queryString language="SQL">
+		<![CDATA[select * from hopdong]]>
+	</queryString>
+	<field name="MAHD" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MAHD"/>
+		<property name="com.jaspersoft.studio.field.label" value="MAHD"/>
+	</field>
+	<field name="TENHOPDONG" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="TENHOPDONG"/>
+		<property name="com.jaspersoft.studio.field.label" value="TENHOPDONG"/>
+	</field>
+	<field name="NGAYBATDAU" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="NGAYBATDAU"/>
+		<property name="com.jaspersoft.studio.field.label" value="NGAYBATDAU"/>
+	</field>
+	<field name="NGAYKETTHUC" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.name" value="NGAYKETTHUC"/>
+		<property name="com.jaspersoft.studio.field.label" value="NGAYKETTHUC"/>
+	</field>
+	<field name="SOLUONG" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="SOLUONG"/>
+		<property name="com.jaspersoft.studio.field.label" value="SOLUONG"/>
+	</field>
+	<field name="DOGIASANPHAM" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="DOGIASANPHAM"/>
+		<property name="com.jaspersoft.studio.field.label" value="DOGIASANPHAM"/>
+	</field>
+	<field name="MASP" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="MASP"/>
+		<property name="com.jaspersoft.studio.field.label" value="MASP"/>
+	</field>
+	<field name="KHACHHANG" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="KHACHHANG"/>
+		<property name="com.jaspersoft.studio.field.label" value="KHACHHANG"/>
+	</field>
+	<field name="PHONE" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="PHONE"/>
+		<property name="com.jaspersoft.studio.field.label" value="PHONE"/>
+	</field>
+	<field name="TONGTIEN" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="TONGTIEN"/>
+		<property name="com.jaspersoft.studio.field.label" value="TONGTIEN"/>
+	</field>
+	<group name="MAHD">
+		<groupExpression><![CDATA[$F{MAHD}]]></groupExpression>
+	</group>
+	<group name="TENHOPDONG">
+		<groupExpression><![CDATA[$F{TENHOPDONG}]]></groupExpression>
+	</group>
+	<group name="NGAYBATDAU">
+		<groupExpression><![CDATA[$F{NGAYBATDAU}]]></groupExpression>
+	</group>
+	<group name="NGAYKETTHUC">
+		<groupExpression><![CDATA[$F{NGAYKETTHUC}]]></groupExpression>
+	</group>
+	<group name="SOLUONG">
+		<groupExpression><![CDATA[$F{SOLUONG}]]></groupExpression>
+	</group>
+	<group name="DOGIASANPHAM">
+		<groupExpression><![CDATA[$F{DOGIASANPHAM}]]></groupExpression>
+	</group>
+	<group name="MASP">
+		<groupExpression><![CDATA[$F{MASP}]]></groupExpression>
+	</group>
+	<group name="KHACHHANG">
+		<groupExpression><![CDATA[$F{KHACHHANG}]]></groupExpression>
+	</group>
+	<group name="PHONE">
+		<groupExpression><![CDATA[$F{PHONE}]]></groupExpression>
+	</group>
+	<group name="TONGTIEN">
+		<groupExpression><![CDATA[$F{TONGTIEN}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
